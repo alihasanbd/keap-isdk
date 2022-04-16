@@ -1,0 +1,16 @@
+{
+    "name": "alihasanbd/keap-isdk",
+    "description": "The unofficial Infusionsoft API PHP old SDK",
+    "version": "1.9.0",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/isdk.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
